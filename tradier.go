@@ -56,9 +56,12 @@ type Quote struct {
 type QuoteType string
 
 const (
+	// QuoteTypeOption indicates the Quote is for an option
 	QuoteTypeOption QuoteType = "option"
-	QuoteTypeStock  QuoteType = "stock"
-	QuoteTypeETF    QuoteType = "etf"
+	// QuoteTypeStock indicates the Quote is for an stock
+	QuoteTypeStock QuoteType = "stock"
+	// QuoteTypeETF indicates the Quote is for an ETF
+	QuoteTypeETF QuoteType = "etf"
 )
 
 type optionExpirations struct {
@@ -135,7 +138,9 @@ type Greeks struct {
 type OptionType string
 
 const (
-	OptionTypePut  OptionType = "put"
+	// OptionTypePut indicates the Option is a PUT
+	OptionTypePut OptionType = "put"
+	// OptionTypeCall indicates the Option is a CALL
 	OptionTypeCall OptionType = "call"
 )
 

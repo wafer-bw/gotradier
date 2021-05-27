@@ -12,6 +12,7 @@ import (
 
 const contentType string = "application/xml"
 
+// Client is used to make supported calls to the Tradier REST API
 type Client struct {
 	Endpoint EndpointType
 	// Tradier API Access Token
