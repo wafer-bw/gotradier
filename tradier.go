@@ -58,7 +58,7 @@ type QuoteType string
 const (
 	// QuoteTypeOption indicates the Quote is for an option
 	QuoteTypeOption QuoteType = "option"
-	// QuoteTypeStock indicates the Quote is for an stock
+	// QuoteTypeStock indicates the Quote is for a stock
 	QuoteTypeStock QuoteType = "stock"
 	// QuoteTypeETF indicates the Quote is for an ETF
 	QuoteTypeETF QuoteType = "etf"
